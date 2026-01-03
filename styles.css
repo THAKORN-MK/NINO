@@ -1,0 +1,90 @@
+/* ===== พื้นฐาน ===== */
+body {
+    margin: 0;
+    font-family: 'Itim', cursive;
+    background: #fff0f6;
+    color: #444;
+    position: relative;
+    z-index: 1;
+}
+
+/* 🌸 พื้นหลัง Nino แบบจาง */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("images/ninobg.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+/* ===== Header ===== */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffc1dc;
+}
+
+.title {
+    font-size: 3rem;
+    color: #e91e63;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #ad1457;
+}
+
+/* ===== เมนู ===== */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background: #ffe4ef;
+    padding: 12px;
+}
+
+.navbar a {
+    color: #d81b60;
+    font-size: 1.2rem;
+}
+
+/* ===== Section ===== */
+.section {
+    background: rgba(255,255,255,0.65);
+    margin: 25px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(255,105,180,0.2);
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 180px;
+    border-radius: 15px;
+    border: 3px solid #ffc1dc;
+}
+
+/* ===== Footer ===== */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #ffe4ef;
+    color: #c2185b;
+}
