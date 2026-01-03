@@ -88,3 +88,36 @@ body::before {
     background: #ffe4ef;
     color: #c2185b;
 }
+
+.list {
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.list li {
+    margin: 10px 0;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+.info-table th {
+    background: #ffd6e8;
+    padding: 10px;
+    width: 30%;
+}
+
+.info-table td {
+    background: #fff;
+    padding: 10px;
+}
+
+.quotes li {
+    margin: 12px 0;
+    font-style: italic;
+}
